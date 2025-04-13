@@ -1,0 +1,36 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#121212, #1a1a1a);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.05);
+  background: #7d74ff;
+}
+#personagem {
+  background: #1e1e1e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+#log {
+  background: #2c2c2c;
+  padding: 1rem;
+  height: 150px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
